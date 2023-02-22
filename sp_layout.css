@@ -28,8 +28,19 @@ body{
    height: 100%;
 }
 
-/* CSS Grid Styles */
+img{
+   display: block;
+}
 
+/* CSS Grid Styles */
+body{
+   display: grid;
+   grid-template-columns: .25% .25% .25% .25%;
+}
+ img#logo{
+   width: 100%;
+   grid-columns: span 3;
+ }
 
 
 
