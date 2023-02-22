@@ -43,9 +43,6 @@ body{
  }
 
 
-
-
-
 /* Horizontal Navigation List Styles */
 nav.horizontal, footer{
    grid-column: span 4;
